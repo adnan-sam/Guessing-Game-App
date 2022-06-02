@@ -13,9 +13,9 @@ This is a number guessing game where you have to guess the correct number and ev
 # 📱 Screenshots
 <table>
   <tr>
-    <td> <img src="https://github.com/adnan-sam/Guessing-Game-App/blob/master/screenshots/img1.jpeg" width="300" height="550">
-    <td> <img src="https://github.com/adnan-sam/Guessing-Game-App/blob/master/screenshots/img3.jpeg" width="300" height="550">
-    <td> <img src="https://github.com/adnan-sam/Guessing-Game-App/blob/master/screenshots/img2.jpeg" width="300" height="550">
+    <td> <img src="https://github.com/adnan-sam/Guessing-Game-App/blob/master/screenshots/new_img1.jpeg" width="300" height="550">
+    <td> <img src="https://github.com/adnan-sam/Guessing-Game-App/blob/master/screenshots/new_img3.jpeg" width="300" height="550">
+    <td> <img src="https://github.com/adnan-sam/Guessing-Game-App/blob/master/screenshots/new_img2.jpeg" width="300" height="550">
   </tr>
 </table>
 
