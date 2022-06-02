@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:text="@string/guess_a_number_between_1_100"
         android:textAlignment="center"
-        android:textColor="@color/purple_700"
+        android:textColor="#00092C"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,13 +24,16 @@
 
     <Button
         android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:shadowColor="#00B0FF"
+        android:background="@drawable/curved"
+        android:backgroundTint="@color/purple_700"
         android:text="@string/submit"
         android:textColor="#FFFFFF"
-        android:textColorHighlight="#008EFF"
-        android:textColorHint="#000000"
+        android:textColorHighlight="#00092C"
+        android:textColorHint="#00092C"
         android:textColorLink="#008EFF"
         app:iconTint="#DD0D0D"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,9 +41,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.537"
-        app:rippleColor="#000000"
-        app:strokeColor="#000000" />
+        app:layout_constraintVertical_bias="0.537" />
 
     <EditText
         android:id="@+id/editTextNumber"
@@ -49,7 +50,7 @@
         android:layout_marginTop="44dp"
         android:textAlignment="center"
         android:autofillHints=""
-        android:ems="10"
+        android:ems="4"
         android:inputType="number"
         android:minHeight="48dp"
         android:textColor="@color/black"
@@ -90,6 +91,9 @@
 
     <Button
         android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:backgroundTint="@color/purple_500"
+        android:background="@drawable/curved"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/play_again"
@@ -104,15 +108,22 @@
 
     <Button
         android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/curved"
+        android:backgroundTint="#890F0D"
+        android:backgroundTintMode="add"
+        android:foregroundTint="#00092C"
         android:text="@string/exit"
-        android:textColor="@android:color/white"
+        android:textColor="#fff"
+        android:textColorLink="#E91E63"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/button2"
         app:layout_constraintStart_toStartOf="@+id/button2"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.773" />
+        app:layout_constraintVertical_bias="0.773"
+        app:rippleColor="@color/red" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
